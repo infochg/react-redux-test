@@ -1,0 +1,12 @@
+@import '../../styles/globals.scss';
+
+.input {
+  border: none;
+  border-bottom: 1px solid $gray;
+  margin: 15px auto;
+  padding: 5px 0;
+  width: 100%;
+  &:hover {
+    border-bottom: 1px solid $purple;
+  }
+}

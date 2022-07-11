@@ -1,0 +1,39 @@
+@import '../../styles/globals.scss';
+
+.formWrapper {
+  width: 100% !important;
+  max-width: 500px !important;
+  height: 350px;
+  max-height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  form {
+    width: 90%;
+    max-width: 300px;
+    text-align: center;
+  }
+}
+
+.h2 {
+  margin-bottom: 30px !important;
+}
+
+.btn {
+  margin: 30px auto 0 auto !important;
+  width: 100%;
+  max-width: 250px;
+  background-color: $purple !important;
+  border: 2px solid $purple !important;
+  color: #fff !important;
+  padding: 15px !important;
+  border-radius: 12px !important;
+  &:hover {
+    background-color: transparent !important;
+    color: $purple !important;
+  }
+}
+
+.error {
+  color: $red;
+}
